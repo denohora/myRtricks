@@ -1,0 +1,1 @@
+# blankrows = which(!nzchar(rows))
