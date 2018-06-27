@@ -17,8 +17,8 @@ plot(n.tests, bonferroni)
 # [.05 Test1Sig, .95 Test2NonSig]
 # [.95 Test1NonSig, .05 Test2Sig]
 # [.05 Test1Sig, .05 Test2Sig]
-.95^2 + .05*.95*2 + .05^2
+#  .95^2 + .05*.95*2 + .05^2
 # at least one nonsig test = 1 - .05^2 = 1 - all sig
 # at least one sig test = 1 - (1-.05)^2 = 1 - all nonsig
 
-x^2 + 2xy + y^2
+# x^2 + 2xy + y^2
