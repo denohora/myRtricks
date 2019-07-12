@@ -1,4 +1,4 @@
-comb.mat <- function(vec, CombLength, Perms = F, Repeats = F){
+make_comb_mat <- function(vec, CombLength, Perms = F, Repeats = F){
   # vec # vector of numbers from which to create perms
   # PermLength # length of each perm
   # Perms = F # if T, return permutations, if F, return combinations
