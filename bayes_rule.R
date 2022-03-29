@@ -46,6 +46,7 @@ bayes.rulePPV(.8,.1,.3)
 p.vals = seq(from =.001, to = .5, by = .005)
 # bayes.rulePPV(p.vals,.9,.7)
 plot(p.vals,bayes.rulePPV(p.vals,.9,.7))
+lines(p.vals, p.vals, lty = 2)
 
 p.vals = seq(from =.0001, to = .1, by = .0005)
 # bayes.rulePPV(p.vals,.9,.7)
