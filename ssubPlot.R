@@ -20,7 +20,7 @@ ssubPlot <- function(sessions, phases, responses, JABA_style = T){
   return(ssPlot)  
 }
 
-# TESTING AND EXAMPLE
+# # TESTING AND EXAMPLE
 # # data needed for plot
 # 
 # # session numbers
@@ -29,16 +29,16 @@ ssubPlot <- function(sessions, phases, responses, JABA_style = T){
 # 
 # # phase labels - one for each session
 # # example data - A-B-A-B design, second A and B labelled as A2 and B2
-# phases <- c( rep("A", 5), rep("B", 5), 
+# phases <- c( rep("A", 5), rep("B", 5),
 #              rep("A2", 5), rep("B2", 5) )
 # 
 # # response number - one for each session
 # # example data - 5 responses at baseline, then 5 increased, 5 reversed and 5 increased again
-# responses <- round(c( rnorm(n = 5, mean = 3), rnorm(n = 5, mean = 6), 
+# responses <- round(c( rnorm(n = 5, mean = 3), rnorm(n = 5, mean = 6),
 #                 rnorm(n = 5, mean = 3), rnorm(n = 5, mean = 6) ), 0)
 # 
 # 
-#   
+# 
 # test <- ssubPlot(sessions, phases, responses)
 
 # TODO - change symbols for geom_point
